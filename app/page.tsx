@@ -11,22 +11,16 @@ type TeamMember = {
 
 const teamMembers: TeamMember[] = [
   {
-    name: 'Harsena Argretya',
-    nim: '22.11.4958',
+    name: 'I Gusti Made Wardita Winaya',
+    nim: '22.11.4979',
     description: 'Informatika Amikom Yogyakarta',
-    image: '/sena.jpg',
+    image: '/wardita.jpg',
   },
   {
-    name: 'Reva Danindra Aulia',
-    nim: '22.11.4955',
+    name: 'Muhamad Rival Al Rasyid',
+    nim: '22.11.5002',
     description: 'Informatika Amikom Yogyakarta',
-    image: '/reva.jpg',
-  },
-  {
-    name: 'Gabriel Bayu Hadi Utomo',
-    nim: '22.11.4980',
-    description: 'Informatika Amikom Yogyakarta',
-    image: '/bayu.jpg',
+    image: '/rival.jpg',
   },
 ];
 
@@ -49,7 +43,7 @@ export default function OurTeam() {
           </div>
 
           <div className="flex justify-center">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 max-w-6xl">
               {teamMembers.map((member) => (
                 <div
                   key={member.nim}
