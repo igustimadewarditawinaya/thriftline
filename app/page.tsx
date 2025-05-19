@@ -33,12 +33,12 @@ export default function OurTeam() {
       >
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="mb-6 text-4xl font-bold text-center md:text-5xl bg-clip-text  text-green-500">
+            <h2 className="mb-6 text-4xl font-bold text-center md:text-5xl bg-clip-text  text-orange-500">
               Tim Digital Business
             </h2>
             <p className="max-w-xl mx-auto text-center text-gray-600 text-lg">
               Perkenalkan tim kami yang mengerjakan project Digital Business -
-              Cheerslabs
+              Thriftline
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export default function OurTeam() {
                       {member.name}
                     </h3>
                     <div className="flex flex-col items-center space-y-3 mb-4">
-                      <span className="bg-fern-green-100 text-fern-green-800 text-sm font-medium px-4 py-1 rounded-full">
+                      <span className="bg-fern-green-100 text-black text-sm font-medium px-4 py-1 rounded-full">
                         NIM: {member.nim}
                       </span>
                       <p className="text-gray-600">{member.description}</p>
